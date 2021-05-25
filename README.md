@@ -1,7 +1,7 @@
 Tesla Model 3 SR+ (USA)
 -----------------------
+
 <!--ts-->
-   * [Tesla Model 3 SR+ (USA)](#tesla-model-3-sr-usa)
    * [Usage](#usage)
    * [Recharge](#recharge)
    * [TCO](#tco)
