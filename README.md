@@ -30,7 +30,11 @@ Tesla Model 3 SR+ (USA)
 
 Dans cet article j'essaye de mettre à plat les différents éléments que
 j'ai analysé avant de décider d'acheter une Tesla Model 3 SR+ 2021 et
-également un peu de retour d’expérience
+également un peu de retour d’expérience (en prenant en compte que je
+n'ai que deux mois de recul pour le moment). J'essaye également de
+pointer vers les topics du
+[forum](https://forums.automobile-propre.com/) qui vont plus en
+détails sur les points évoqués.
 
 ## Usage
 J'ai estimé en terme de temps des longs trajets types (c'est le point
@@ -53,6 +57,11 @@ concrètes.
 - Superchargeurs 4 places à 6km, et pareil à 11km (pour une urgence,
   avant départ en vacance pour avoir 100%)
 
+
+TODO: un post du forum recense les utilisateurs et leur mode de
+recharge (domicile ou pas) qui permet de relativiser si ce point était
+bloquant pour ceux qui n'ont pas de recharge à domicile...
+
 ## TCO
 Je voulais avoir une idée du coût de possession du véhicule (Total
 Cost of Ownership) pour pouvoir le comparer avec mon ancien véhicule
@@ -63,6 +72,7 @@ j'ai donc estimées.
 ### Estimations
 
 #### Prix au 100km
+
 Mon modèle est 80% d’électricité gratuite et 20% payante au tarif
 Tesla Supercharger 2021 (0,37€) J’estime que c'est un modèle
 "pessimiste". Je ne prends évidemment pas en compte le fait que j'ai
@@ -78,6 +88,7 @@ bornes locales à 11kW)
 - 4 ans
 
 #### Décôte
+
 En regardant les sites d'annonces et forums etc. je trouve une décôte
 en gros de 25% sur la Model 3 pour ma durée de possession. C'est je
 pense dans le calcul le facteur le plus impactant et le moins
@@ -86,6 +97,7 @@ Berlin, réduction future des prix comme ça a été fait fin Décembre
 2020.
 
 #### Train de pneus
+
 Changement estimé vers 40-50k km, avec un coût du train estimé à 700€
 (en jantes aéro 18')
 
@@ -114,7 +126,6 @@ trouvé le moyen de réduire ma facture téléphone de 10€/mois donc au
 final ça prends en compte les 9.99€/mois d'abonnement premium que j'ai
 souscris 30 jours après la livraison...)
 
-
 Pour info j'avais comparé également avec les offres de LOA (sans
 utiliser l'option d'achat à terme) et LLD (location longue durée) et
 aucune des deux n'était aussi intéressante financièrement (elles
@@ -126,16 +137,23 @@ montant de la décote)
 | Tesla Model 3 2021 SR+ |299€|5|4900€    | 1,1€/100km           | 870       | **28622€** |
 | Tesla Model 3 2021 LR  |397€|5|8900€    | 1,1€/100km           | 870       | **38502€** |
 
+NB: je partage pour le moment une version simplifiée du tableur, le
+tableau sur lequel je me base nécessite d'être "nettoyé" pour une
+diffusion publique. Bien sûr s'il y a des demandes particulières, ça
+me motivera à faire ce travail.
+
 ## Essai de la voiture
 
 J'ai fait un essai dans ma région d'une Model 3 Performance (il ne
 font jamais essayer les SR+ comme j'aurais espéré, j'imagine que c'est
 marketing... on te mets un avion de chasse entre les mains alors que
-tu veux acheter un Cesna ;-) ) Essai commandé sur internet, on s'est
-synchronisé ensuite par téléphone. Rien à dire, experience top, la
-perf envoie quelques G d'accélération effectivement, on s'emerveille
-de l'écran et le rendu de la circulation en temps réel, on teste
-l'auto-pilote. 30min ça passe trèès vite.
+tu veux acheter un Cesna... ;-) ) Essai commandé sur internet, on
+s'est synchronisé ensuite par téléphone. Rien à dire, experience top,
+la perf envoie quelques G d'accélérations effectivement, on
+s'emerveille de l'écran et le rendu de la circulation en temps réel,
+on teste l'auto-pilote.
+
+30min ça passe trèès vite et on en ressort bien rechargé à bloc :-)
 
 ## Commande de la voiture
 
@@ -145,8 +163,16 @@ avec le Tesla Advisor local pour valider les pièces justificatives du
 dossier, valider le virement final etc.
 
 En terme de délai, j'ai choisi un modèle disponible mais sans ville
-indiquée (je l'ai compris après, ça veut dire soit sur bateau, soit
-sur le parking de l'usine en attente).
+indiquée. J'ai fini par comprendre que ça indique que le véhicule a
+été produit, et se situe soit deja sur une porte-container direction
+l'Europe (depuis San-Francisco, passage du canal de Panama et arrivée
+à Zeebrugge), soit sur le parking de l'usine.
+
+Entre le moment où j'ai validé la commande et la livraison, il s'est
+passé 6 semaines. La carte grise a été envoyée la semaine avant la
+livraison, coup de fil à l'assurance une fois que la date était bien
+arrêtée (en gros 3 semaines avant) et réception de la carte verte le
+week-end avant la livraison.
 
 ## Suivi des données de la voiture
 
@@ -313,6 +339,36 @@ profiter.
   automatique comme il a été souvent mentionné sur le forum, mais en
   même temps avec le couvre-feu je n'ai pas beaucoup roulé de nuit.
 
+##### Application mobile
+
+L'activation de commandes (ventiler, activer le mode sentinelle) sur
+la voiture est passée en directe, donc il faut attendre le reveil de
+celle-çi qui peut prendre parfois plusieurs dizaines de secondes
+(l'experience utilisateur est pire quand on est dans une zone avec
+couverture mobile alétoire/débit réduit). C'est un point parfois un
+peu frustrant, quand il serait possible à Tesla de valider côté
+serveur la commande, et attendre ensuite que la voiture se reveille
+pour passer la commande de manière asynchrone.
+
+Sinon l'appli est limitée en terme de fonctionnalités, on aimerait
+vraiment pouvoir contrôler l'amperage de recharge depuis le mobile
+(recharge en alternatif à domicile), et également modifier les
+paramètres de planification (heures pleines/creuses, heure de début de
+charge etc.) sans avoir à être dans la voiture.
+
+Egalement il manque des widgets pour les commandes les plus utilisées
+(ouverture des coffres, ventilation, sentinelle, ...). Je ne suis pas
+fan à l'idée de donner les clefs de la voiture à des applis tierces
+complètement opaques (show me the code). S'il existe des applis
+opensource qui font ce boulot je suis preneur.
+
+EDIT: Il y a l'application Tesla Advanced Notifications (1.79€ sur le
+Play Store) developpée par un français qui a même son thread sur
+[automobile-propre](https://forums.automobile-propre.com/topic/app%C2%A0tierce-tesla-advanced-notification-android-22882/). Ce
+n'est pas open schtroumpf mais il y a un canal de communication
+intéressant via le forum avec une certaine transparence sur la manière
+dont le developpeur répond aux retours des utilisateurs.
+
 #### Eco-conduite
 
 J'avais vu la mention en éco conduite de passer en neutre en roulant
@@ -385,4 +441,7 @@ Je suis à disposition pour toutes questions, retour d’expérience plus
 détaillé en privé et évidemment serait heureux de vous faire
 bénéficier de mon lien de parrainage (1500km de supercharges gratuites
 pour le parrainé ainsi que le parrain) pour continuer l'échange si
-tout ça vous a aidé à avancer dans votre décision.
+tout ça vous a aidé à avancer dans votre décision.  La carte des
+parrains est visible sur le forum
+[ici](https://forums.automobile-propre.com/topic/carte-des-propri%C3%A9taires-et-parrains-tesla-du-forum-13426/?do=findComment&comment=259247)
+où j'y apparais localisé à Antibes.
