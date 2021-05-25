@@ -91,10 +91,10 @@ aucune des deux n'était aussi intéressante financièrement (elles
 permettes à mon avis juste de ne pas dépendre d'estimations comme le
 montant de la décote)
 
-| Modèle | Loyer  | Durée | Premier loyer | Consommation / 100km | Assurance | TCO 
-|--|--|--|--|--|--|--|--
-| Tesla Model 3 2021 SR+ | 299€ | 5 | 4900€ | 1,1€/100km | 870 | **28622€**
-| Tesla Model 3 2021 LR | 397€ | 5 | 8900€ | 1,1€/100km | 870 | **38502€**
+| Modèle | Loyer  | Durée | Premier loyer | Consommation / 100km | Assurance | TCO        |
+|--------|--------|-------|---------------|----------------------|-----------|------------|
+| Tesla Model 3 2021 SR+ |299€|5|4900€    | 1,1€/100km           | 870       | **28622€** |
+| Tesla Model 3 2021 LR  |397€|5|8900€    | 1,1€/100km           | 870       | **38502€** |
 
 
 ## Suivi des données de la voiture
