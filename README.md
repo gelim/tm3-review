@@ -49,8 +49,8 @@ concrètes.
 ## TCO
 Je voulais avoir une idée du coût de possession du véhicule (Total
 Cost of Ownership) pour pouvoir le comparer avec mon ancien véhicule
-thermique et le potentiel concurrent thermique à la Model 3. Mon
-calcul s'est basé sur des données connues, et certaines inconnues que
+thermique et mon potentiel concurrent thermique à la Model 3. Le
+calcul est basé sur des données connues, et certaines inconnues que
 j'ai donc estimées.
 
 ### Estimations
@@ -119,6 +119,27 @@ montant de la décote)
 | Tesla Model 3 2021 SR+ |299€|5|4900€    | 1,1€/100km           | 870       | **28622€** |
 | Tesla Model 3 2021 LR  |397€|5|8900€    | 1,1€/100km           | 870       | **38502€** |
 
+## Essai de la voiture
+
+J'ai fait un essai dans ma région d'une Model 3 Performance (il ne
+font jamais essayer les SR+ comme j'aurais espéré, j'imagine que c'est
+marketing... on te mets un avion de chasse entre les mains alors que
+tu veux acheter un Cesna ;-) ) Essai commandé sur internet, on s'est
+synchronisé ensuite par téléphone. Rien à dire, experience top, la
+perf envoie quelques G d'accélération effectivement, on s'emerveille
+de l'écran et le rendu de la circulation en temps réel, on teste
+l'auto-pilote. 30min ça passe trèès vite.
+
+## Commande de la voiture
+
+La commande se fait sur internet via une reservation de la voiture
+d'un montant de 100€. Ensuite on a quelques échanges par téléphone
+avec le Tesla Advisor local pour valider les pièces justificatives du
+dossier, valider le virement final etc.
+
+En terme de délai, j'ai choisi un modèle disponible mais sans ville
+indiquée (je l'ai compris après, ça veut dire soit sur bateau, soit
+sur le parking de l'usine en attente).
 
 ## Suivi des données de la voiture
 
@@ -215,11 +236,30 @@ peu de ballade dans ma région pendant les congés de Mai.
   de montagne, avec un bon enrobé, j'avais 53dbA.
 
 #### Les points qui pêchent
+##### Piétons
 - J'ai eu a plusieurs reprises des réactions mitigées des piétons sur
   le fait que la voiture ne fait aucun bruits à faible vitesse (dans
   les endroits touristiques, les parkings de supermarchés, les routes
   de montagnes avec cyclistes). L'absence de boombox sur ces modèles
   USA est un **gros** manque à mon avis.
+
+##### Bas de caisse
+
+Il y a 14cm ce qui rend la voiture très propice aux raclements de tous
+genres dès que vous êtes sur des chaussées/chemins en moyen
+état. Contrairement à ce qu'on pourrait penser ce n'est pas sur les
+dos d'ânes un peu raides que j'ai eu des soucis. Au contraire là ça
+passe bien (j'arrive évidemment au pas dessus) là ou pas mal de
+voitures râclent (genre ceux à côté de chez moi).
+
+Mais typiquement pas besoin d'aller faire du 4x4 avec la voiture, mais
+des endroits moyennement carrosssables où je ne me posais pas de
+questions avant m'ont fait apprendre que maintenant il faut s'en
+poser. Exemple de choses à surveiller: route en montagne légèrement
+surelevée par rapport à un bas côté où l'on voudrait se stationner
+temporairement, chemin de terre pour accéder à un logement un peu
+isolé avec des ornières, plan incliné pour rentrer sur un parking etc.
+
 ##### Autopilot
 - Les freinages fantômes: les premières fois ça surprend vraiment,
   après on connait les situations où ça peut arriver et on fait
@@ -242,6 +282,7 @@ peu de ballade dans ma région pendant les congés de Mai.
 En gros pour résumer la fonctionnalité est top sur autoroute, pour le
 reste le pilote à intérêt d'être à 200% attentif s'il veut en
 profiter.
+
 ##### Ergonomie infotainment
 - Je ne suis toujours pas super habitué à l'ergonomie de la partie
   musicale (jongler entre podcast, musiques, et radios online ou
@@ -265,7 +306,8 @@ profiter.
   automatique comme il a été souvent mentionné sur le forum, mais en
   même temps avec le couvre-feu je n'ai pas beaucoup roulé de nuit.
 
-### Astuces
+#### Eco-conduite
+
 J'avais vu la mention en éco conduite de passer en neutre en roulant
 pour ne plus tirer sur le moteur, c'est après un mois d'utilisation
 que j'ai enfin compris comment passer au neutre en roulant, il suffit
@@ -275,6 +317,55 @@ s'active. C'est une manipulation qui présente évidemment des risques
 s'il y a une grosse déclivité et des virages serrés puisque la voiture
 avec ces 1,6 tonnes accélère rapidement et les freins je le répète ne
 sont pas dimensionnés pour faire des arrêts trop brefs.
+
+### Charges, consommation et planification
+
+Un autre point est la familiarisation progressive aux unités et
+calculs de distance/consommation propre aux véhicules éléctriques.
+
+Sur une Tesla Model 3 SR+ on a en gros 55 kWh d'énergie stockée dans la batterie.
+Les chargeurs indiquent une puissance théorique délivrée (en kW):
+
+- 7kW (courant alternatif, 32A monophasé, utilise le câble T2)
+- 11kW (courant alternatif, 16A tripasé, utilise la câble T2)
+- 50kW (courant continu, prise combo CCS toujours à dispo sur le chargeur)
+- 150kW (courant continu, prise combo CCS, dispo sur superchargeurs Tesla, ionity, v-gas, etc.)
+
+Donc pour faire simple une charge de 1h à la puissance de 50kW est
+censée être suffisante pour charger la batterie à 100%. En pratique
+c'est un peu plus compliqué, la puissance acceptée par la batterie
+Tesla va dépendre du niveau de charge courant, sous forme d'une pente,
+le max à niveau de SoC bas, qui va diminuer plus on se rapproche des
+100%.
+
+De la même manière si on veut faire une recharge de 20 à 80% (donc 60%
+de 55kWh soit 33kWh) il faudrait 1h à 33kW ou 3h à 11kWh.
+
+Egalement en terme de consommation indiqué dans la voiture on a les
+données en Wh/km, en gros sur autouroute on verra dans des bonnes
+conditions à 130km/h une consommation de 160Wh/km (soit 16kW/100km,
+donc une autonomie théorique de 55/16 * 100 = ~340km).
+
+Si on roule plus à la campagne avec des routes limitées entre 50 et
+70-80 on sera plutôt vers une consommation de 120Wh/km, donc une
+autonomie théorique de 450km.
+
+En pratique on ne fais jamais une décharge totale de la batterie, en
+particulier Tesla conseille au quotidien d'être entre 20 et 80%. Donc
+si on revient sur le mode de conduite à la campagne, ça revient à
+prendre 60% des 450km, ce qui revient à 275km.  Sur l'autoroute on
+considère qu'on passe en régime exceptionnel et on travaille sur du
+90%-10%, donc on a 80% de la capacité totale ce qui revient à 272km
+(au mieux).
+
+La manière d'utiliser sa batterie est libre à chachun, je présente ici
+ma gestion en croisant les bonne pratiques énoncées par Tesla et mon
+usage (peu d'autoroute uniquement en mode vacance, le reste sur route
+de campagne/agglomération urbaine)
+
+Sur long trajets l'ordinateur de bord nous propose un planificateur
+qui va automatiquement calculer les arrêts aux superchargeurs ainsi
+que la durée de ses arrêts afin de minimiser le temps à recharger.
 
 ## Communauté
 
