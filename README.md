@@ -1,4 +1,26 @@
-# Tesla Model 3 SR+ (USA)
+Tesla Model 3 SR+ (USA)
+-----------------------
+
+* [Usage](#usage)
+* [Recharge](#recharge)
+* [TCO](#tco)
+   * [Estimations](#estimations)
+   * [Prix au 100km](#prix-au-100km)
+      * [Période d'usage](#période-dusage)
+      * [Décôte](#décôte)
+      * [Train de pneus](#train-de-pneus)
+   * [Tableau récapitulatif](#tableau-récapitulatif)
+* [Suivi des données de la voiture](#suivi-des-données-de-la-voiture)
+* [Bilan après 2 mois](#bilan-après-2-mois)
+   * [Conduite](#conduite)
+      * [Remarques générales et points positifs qui m'ont marqués](#remarques-générales-et-points-positifs-qui-mont-marqués)
+      * [Les points qui pêchent](#les-points-qui-pêchent)
+          * [Autopilot](#autopilot)
+          * [Ergonomie infotainment](#ergonomie-infotainment)
+          * [Commandes automatisées](#commandes-automatisées)
+   * [Astuces](#astuces)
+* [Communauté](#communauté)
+
 Dans cet article j'essaye de mettre à plat les différents éléments que
 j'ai analysé avant de décider d'acheter une Tesla Model 3 SR+ 2021 et
 également un peu de retour d’expérience
@@ -65,9 +87,10 @@ Changement estimé vers 40-50k km, avec un coût du train estimé à 700€
 Je n'ai pas eu besoin de crédit pour la voiture, mais j'avais quand
 même rajouté dans la simulation la possibilité de prendre 20k€ à la
 banque à 1,74% pendant 4 ans, ça faisait remonter le TCO mensuel à
-341€. Pour être clair je ne parle ici pas du montant à rembourser à la
-banque mais l'impact mensuel sur la durée de possession du véhicule
-après revente sous les conditions énoncées plus haut.
+341€ pour la SR+. Pour rappel je ne parle ici pas du montant à
+rembourser à la banque mais l'impact mensuel sur la durée de
+possession du véhicule après revente sous les conditions énoncées plus
+haut.
 
 |  | Prix achat  | Consommation / 100km | Assurance tout risque | Décôte |  Coût d'usage annuel (charges) | Train pneus | Réparations exceptionnelles | TCO | Perte mensuelle
 |--|--|--|--|--|--|--|--|--|--|
@@ -112,7 +135,7 @@ gérer l'authentification avec MFA activé sur votre compte Tesla
 J'ai donc déployé Teslamate (via docker) sur un vieux barebone qui
 fait serveur IoT à la maison. Au début j'avais une crainte concernant
 des réveils trop fréquent de la voiture, mais ça semble géré au top,
-puisque je ne vois aucun impact sur le SoC de la voiture avec
+puisque je ne vois aucun impact sur la charge de la voiture avec
 Teslamate actif ou pas. La voiture perds en gros 1-2% par jour si elle
 est inutilisée.
 
@@ -177,6 +200,19 @@ peu de ballade dans ma région pendant les congés de Mai.
   négatives dans l'habitacle le matin)
 - Le reconnaissance vocale marche bien (bon point sur le décodage des
   noms de villes que moi-même ne serait pas capable d'orthographier)
+- Le plaisir de faire de la regénération et voir l'indicateur de
+  batterie monter d'un pourcent :-)
+- Je trouve très satisfaisant les moments où l'on peut recharger
+  gratuitement pendant les courses sur du 11kW. On se dit bien que ça
+  risque de ne pas trop durer
+- Le moment où l'ont passe la mise à jour, j'en ai eu deux en deux
+  mois depuis mon achat. Il y a toujours un nouveau petit détail, une
+  ammélioration non visible qui reste quelque chose d'appréciable
+- Quand le bitume est bon, les bruits de roulements s'effacent, vous
+  ouvrez la fenêtre et vous avez un moment magique qui ressemble un
+  peu à l'effet en décapotable. J'ai mesuré récemment avec Sound
+  Analyzer App le niveau sonore dans ces conditions à 50km/h sur route
+  de montagne, avec un bon enrobé, j'avais 53dbA.
 
 #### Les points qui pêchent
 - J'ai eu a plusieurs reprises des réactions mitigées des piétons sur
@@ -240,11 +276,15 @@ s'il y a une grosse déclivité et des virages serrés puisque la voiture
 avec ces 1,6 tonnes accélère rapidement et les freins je le répète ne
 sont pas dimensionnés pour faire des arrêts trop brefs.
 
-### Communauté
-Je suis sur le forum à disposition pour toutes questions, retour
-d’expérience plus détaillé en privé et évidemment serait heureux de
-vous faire bénéficier de mon lien de parrainage (1500km de
-supercharges gratuites pour le parrainé ainsi que le parrain) pour
-continuer l'échange si tout ça vous a aidé à avancer dans votre
-décision.
+## Communauté
 
+La communauté francophone foisonne, j'ai beaucoup regardé les vidéos
+des différents youtubers francophone (Tesla en Provence, Tesla
+Riviera, Tesla Enthousiaste, TeXla, TESLA-NATIK, The Choucroute
+Garage, etc.) et principalement Bjørn Nyland en anglophone.
+
+Je suis à disposition pour toutes questions, retour d’expérience plus
+détaillé en privé et évidemment serait heureux de vous faire
+bénéficier de mon lien de parrainage (1500km de supercharges gratuites
+pour le parrainé ainsi que le parrain) pour continuer l'échange si
+tout ça vous a aidé à avancer dans votre décision.
