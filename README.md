@@ -156,7 +156,7 @@ tu veux acheter un Cesna... ;-) ) Essai commandé sur internet, on
 s'est synchronisé ensuite par téléphone. Rien à dire, experience top,
 la perf envoie quelques G d'accélérations effectivement, on
 s'emerveille de l'écran et le rendu de la circulation en temps réel,
-on teste l'auto-pilote.
+on teste un peu l'auto-pilote.
 
 30min ça passe trèès vite et on en ressort bien rechargé à bloc :-)
 
@@ -215,9 +215,9 @@ lente à domicile (Airbnb) en 3kW. Donc effectivement bien en deçà de
 l’énergie que je consomme en roulant (~14kWh/100km)
 
 
-## Bilan après 2 mois
+## Bilan après 4 mois
 
-Ça fait maintenant 2 mois que j'ai le véhicule que j'ai utilisé
+Ça fait maintenant 4 mois que j'ai le véhicule que j'ai utilisé
 principalement en période COVID confiné à la campagne et également un
 peu de ballade dans ma région pendant les congés de Mai.
 
@@ -303,7 +303,7 @@ isolé avec des ornières, plan incliné pour rentrer sur un parking etc.
 
 Avoir le toit en verre c'est sympa, mais il y a un effet four
 inévitable qu'on remarque rapidement surtout quand on habite dans le
-Sud comme moi... Pour le moment je me débourille avec une couverture
+Sud comme moi... Pour le moment je me débrouille avec une couverture
 isolante pour le pare-brise uniquement (verre non traité comme le
 toit). Ça a un petit impact sur les températures max qu'atteint
 l'habitacle.
