@@ -20,6 +20,7 @@ Tesla Model 3 SR+ (USA)
          * [Les points qui pêchent](#les-points-qui-pêchent)
             * [Piétons](#piétons)
             * [Bas de caisse](#bas-de-caisse)
+            * [Température de l'habitacle](#température-de-lhabitacle)
             * [Autopilot](#autopilot)
             * [Ergonomie infotainment](#ergonomie-infotainment)
             * [Commandes automatisées](#commandes-automatisées)
@@ -223,7 +224,7 @@ peu de ballade dans ma région pendant les congés de Mai.
 ### Conduite
 #### Remarques générales et points positifs qui m'ont marqués
 - Conduite sportive/dynamique: on sent bien le poids et les freins que
-  je troue un peu sous dimensionnés (ok tout ça pour arriver à la
+  je trouve un peu sous dimensionnés (ok tout ça pour arriver à la
   conclusion que j'ai pas un modèle Performance :-D)
 - Conduite zen/campagne: l'efficacité à faible vitesses (<80km/h)
   semble redoutable, c'est la période ou Teslamate n'a malheureusement
@@ -233,7 +234,8 @@ peu de ballade dans ma région pendant les congés de Mai.
 - J'ai noté une distance effective parcourue de ~250km en faisant des
   décharges de 80% à 20%, j'étais dans ce mode de charge pendant le
   confinement et rechargeait le dimanche uniquement.
-- **Chaque fois** (j'insiste bien) que je la prends, c'est toujours du pur plaisir
+- **Chaque fois** (j'insiste bien) que je la prends, c'est toujours du
+  pur plaisir
 - L’expérience supercharge est top (on le lit partout mais c'est bien
   de le constater en vrai): tu branches, ça envoie, passage aux
   toilettes dans l'Ibis, Novotel, on prend un café, fait 5 min de
@@ -296,6 +298,15 @@ poser. Exemple de choses à surveiller: route en montagne légèrement
 surelevée par rapport à un bas côté où l'on voudrait se stationner
 temporairement, chemin de terre pour accéder à un logement un peu
 isolé avec des ornières, plan incliné pour rentrer sur un parking etc.
+
+##### Température de l'habitacle
+
+Avoir le toit en verre c'est sympa, mais il y a un effet four
+inévitable qu'on remarque rapidement surtout quand on habite dans le
+Sud comme moi... Pour le moment je me débourille avec une couverture
+isolante pour le pare-brise uniquement (verre non traité comme le
+toit). Ça a un petit impact sur les températures max qu'atteint
+l'habitacle.
 
 ##### Autopilot
 - Les freinages fantômes: les premières fois ça surprend vraiment,
@@ -390,13 +401,15 @@ sont pas dimensionnés pour faire des arrêts trop brefs.
 Un autre point est la familiarisation progressive aux unités et
 calculs de distance/consommation propre aux véhicules éléctriques.
 
-Sur une Tesla Model 3 SR+ on a en gros 55 kWh d'énergie stockée dans la batterie.
-Les chargeurs indiquent une puissance théorique délivrée (en kW):
+Sur une Tesla Model 3 SR+ on a en gros 55 kWh d'énergie stockée dans
+la batterie.  Les chargeurs indiquent une puissance théorique délivrée
+(en kW):
 
 - 7kW (courant alternatif, 32A monophasé, utilise le câble T2)
 - 11kW (courant alternatif, 16A tripasé, utilise la câble T2)
 - 50kW (courant continu, prise combo CCS toujours à dispo sur le chargeur)
-- 150kW (courant continu, prise combo CCS, dispo sur superchargeurs Tesla, ionity, v-gas, etc.)
+- 150kW (courant continu, prise combo CCS, dispo sur superchargeurs
+  Tesla, ionity, v-gas, etc.)
 
 Donc pour faire simple une charge de 1h à la puissance de 50kW est
 censée être suffisante pour charger la batterie à 100%. En pratique
