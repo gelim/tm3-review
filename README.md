@@ -195,8 +195,12 @@ J'ai donc déployé Teslamate (via docker) sur un vieux barebone qui
 fait serveur IoT à la maison. Au début j'avais une crainte concernant
 des réveils trop fréquent de la voiture, mais ça semble géré au top,
 puisque je ne vois aucun impact sur la charge de la voiture avec
-Teslamate actif ou pas. La voiture perds en gros 1-2% par jour si elle
-est inutilisée.
+Teslamate actif ou pas. La voiture perds en gros 1% max par jour si
+elle est inutilisée. 
+
+NB: n'ayant pas la granularité suffisante sur le niveau de batterie,
+on peut voir parfois le pourcentage descendre d'un le lendemain, mais
+ça ne veut pas dire qu'il y a eu perte de 1% de 55kWh.
 
 Seul hic, c'est quand votre connexion internet @home a des soucis,
 Teslamate devient aveugle et vous perdez autant de données que le
