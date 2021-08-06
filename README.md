@@ -188,8 +188,10 @@ manière totalement contrôlée (c'est stocké à la maison) avec une
 interface de visu technique top (en particulier qui fera plaisir à
 tout ceux qui ont deja l'habitude d'utiliser Grafana dans un contexte
 boulot probablement). Teslamate se connecte donc aux API Tesla
-officielles et récupère en continu les données.  NB: aucuns souci pour
-gérer l'authentification avec MFA activé sur votre compte Tesla
+officielles et récupère en continu les données.
+
+NB: aucuns souci pour gérer l'authentification avec MFA activé sur
+votre compte Tesla
 
 J'ai donc déployé Teslamate (via docker) sur un vieux barebone qui
 fait serveur IoT à la maison. Au début j'avais une crainte concernant
@@ -198,7 +200,7 @@ puisque je ne vois aucun impact sur la charge de la voiture avec
 Teslamate actif ou pas. La voiture perds en gros 1% max par jour si
 elle est inutilisée. 
 
-NB: n'ayant pas la granularité suffisante sur le niveau de batterie,
+EDIT: n'ayant pas la granularité suffisante sur le niveau de batterie,
 on peut voir parfois le pourcentage descendre d'un le lendemain, mais
 ça ne veut pas dire qu'il y a eu perte de 1% de 55kWh.
 
